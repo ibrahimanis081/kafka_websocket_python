@@ -1,0 +1,31 @@
+{
+    "type": "record",
+    "name": "TemperatureSensorReading",
+    "fields": [
+      {
+        "name": "sensor_id",
+        "type": "string"
+      },
+      {
+        "name": "sensor_type",
+        "type": "string"
+      },
+      {
+        "name": "factory_number",
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "type": "string"
+      },
+      {
+        "name": "temperature_celsius",
+        "type": "float"
+      },
+      {
+        "name": "temperature_fahrenheit",
+        "type": "float"
+      }
+    ]
+  }
+  
